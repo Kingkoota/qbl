@@ -1,0 +1,17 @@
+// QBL v0.2.0 Example: Protected Computation (Autonomous QEC)
+// Uses measurement-free error correction — NOT PATENTED
+
+qubit q[3]
+cbit c[3]
+
+// Protected block: autonomous error correction policy
+// Compiler allocates ancilla qubits and correction circuits automatically
+protect(q[0:3], policy: autonomous, threshold: 0.999) {
+    H(q[0])
+    CNOT(q[0], q[1])
+    CNOT(q[0], q[2])
+}
+
+c[0] = measure(q[0])
+c[1] = measure(q[1])
+c[2] = measure(q[2])

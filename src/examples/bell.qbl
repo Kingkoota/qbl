@@ -1,0 +1,13 @@
+// QBL Example: Bell State
+// Fully automated — run with: python qbl_run.py bell.qbl --all
+
+qubit q[2]
+cbit c[2]
+
+gate {
+    H(q[0])
+    CNOT(q[0], q[1])
+}
+
+c[0] = measure(q[0])
+c[1] = measure(q[1])

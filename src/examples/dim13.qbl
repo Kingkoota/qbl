@@ -1,0 +1,33 @@
+// QBL Dimension-13 Example
+// Demonstrates native 13-level quantum computing
+//
+// Run: qbl run examples/dim13.qbl --all
+
+// Declare 13-dimensional qudits
+qudit<13> q[3]
+cdit<13> c[3]
+
+// Prepare uniform superposition (generalized Hadamard)
+QFT(q[0])
+
+// Create maximally entangled pair
+// |Φ⁺⟩₁₃ = (1/√13) Σⱼ |j⟩|j⟩
+entangle(q[1], q[2])
+
+// Native mod-13 arithmetic
+SHIFT(q[0], 7)       // |+⟩ → shift by 7
+MULT(q[0], 5)        // multiply by 5 (mod 13)
+
+// Controlled phase interaction
+CPHASE(q[0], q[1])   // ω^(jk) entanglement
+
+// Weyl displacement
+WEYL(q[2], 3, 8)     // D(3,8) displacement
+
+// Measure all
+c[0] = measure(q[0])  // outcome ∈ {0,1,...,12}
+c[1] = measure(q[1])
+c[2] = measure(q[2])
+
+// Assert entanglement before measurement
+// assert entangled(q[1], q[2])

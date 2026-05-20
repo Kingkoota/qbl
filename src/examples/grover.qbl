@@ -1,0 +1,31 @@
+// QBL Example: Grover's Search (2-qubit, marked state |11⟩)
+
+qubit q[2]
+cbit c[2]
+
+// Initialize superposition
+gate {
+    H(q[0])
+    H(q[1])
+}
+
+// Oracle: mark |11⟩
+gate {
+    CZ(q[0], q[1])
+}
+
+// Diffusion operator
+gate {
+    H(q[0])
+    H(q[1])
+    X(q[0])
+    X(q[1])
+    CZ(q[0], q[1])
+    X(q[0])
+    X(q[1])
+    H(q[0])
+    H(q[1])
+}
+
+c[0] = measure(q[0])
+c[1] = measure(q[1])

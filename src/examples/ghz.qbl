@@ -1,0 +1,15 @@
+// QBL Example: GHZ State (3-qubit entanglement)
+// Creates |000⟩ + |111⟩ superposition
+
+qubit q[3]
+cbit c[3]
+
+gate {
+    H(q[0])
+    CNOT(q[0], q[1])
+    CNOT(q[0], q[2])
+}
+
+c[0] = measure(q[0])
+c[1] = measure(q[1])
+c[2] = measure(q[2])

@@ -1,0 +1,17 @@
+// QBL v0.2.0 Example: Multi-Backend Pulse Control
+// Write once, compile to ANY quantum hardware — NOT PATENTED
+
+qubit q[2]
+cbit c[2]
+
+// Abstract pulse operations — compiler targets specific hardware
+pulse(q[0], rotation: pi, axis: x, optimize: highest_fidelity)
+pulse(q[1], rotation: pi/2, axis: y, optimize: fastest)
+
+// Entangling operation via hardware-native interaction
+gate {
+    CNOT(q[0], q[1])
+}
+
+c[0] = measure(q[0])
+c[1] = measure(q[1])

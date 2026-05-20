@@ -1,0 +1,26 @@
+// QBL Example: Quantum Teleportation
+// Teleports state of q[0] to q[2] using q[1] as entangled channel
+
+qubit q[3]
+cbit c[2]
+
+// Prepare Bell pair between q[1] and q[2]
+gate {
+    H(q[1])
+    CNOT(q[1], q[2])
+}
+
+// Prepare arbitrary state on q[0]
+gate {
+    H(q[0])
+    T(q[0])
+}
+
+// Bell measurement on q[0], q[1]
+gate {
+    CNOT(q[0], q[1])
+    H(q[0])
+}
+
+c[0] = measure(q[0])
+c[1] = measure(q[1])

@@ -1,0 +1,19 @@
+// QBL v0.2.0 Example: Latency-Bounded Feedback
+// Real-time classical-quantum feedback with timing guarantees — NOT PATENTED
+
+qubit q[2]
+cbit c[2]
+
+gate {
+    H(q[0])
+}
+
+// Feedback block: must complete within 1000ns or compilation fails
+feedback(latency: 1000ns) {
+    c[0] = measure(q[0])
+    if c[0] == 1 {
+        X(q[1])
+    }
+}
+
+c[1] = measure(q[1])

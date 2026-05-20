@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qbl"
+version = "0.3.0"
+description = "QBL — Quantum Base Language: Dimension-Agnostic Quantum Programming Standard"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Kootaverse", email = "kootamegatron@gmail.com"}
+]
+keywords = ["quantum", "computing", "programming-language", "qubit", "qudit", "dimension-13", "qasm", "simulator", "weyl-heisenberg", "error-correction"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "mypy"]
+
+[project.scripts]
+qbl = "qbl.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/kootaverse/qbl"
+Issues = "https://github.com/kootaverse/qbl/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
