@@ -1,0 +1,102 @@
+{
+  "engine": "QBL AI Parity Engine v1.0",
+  "timestamp": "2026-05-21T17:05:38.279841",
+  "targets": [
+    "openai",
+    "anthropic",
+    "google",
+    "meta",
+    "xai",
+    "deepseek"
+  ],
+  "frontier_knowledge": {
+    "architectures": [
+      "transformer",
+      "mixture of experts",
+      "state space model",
+      "flash attention",
+      "grouped query attention",
+      "rope",
+      "swiglu",
+      "rms norm",
+      "decoder-only",
+      "sparse transformer"
+    ],
+    "techniques": [
+      "rlhf",
+      "rlaif",
+      "dpo",
+      "constitutional ai",
+      "knowledge distillation",
+      "lora",
+      "fp8 training",
+      "pipeline parallelism",
+      "curriculum learning",
+      "instruction tuning"
+    ],
+    "capabilities": [
+      "chain of thought",
+      "tool use",
+      "function calling",
+      "computer use",
+      "code generation",
+      "multimodal",
+      "long context",
+      "reasoning",
+      "agent",
+      "multi-agent",
+      "world model",
+      "self-improvement",
+      "video generation",
+      "retrieval augmented"
+    ],
+    "metrics": {
+      "params_B": 1800,
+      "context_K": 2000,
+      "scale_T": 15
+    }
+  },
+  "modules_generated": 10,
+  "modules": [
+    {
+      "file": "src/qbl/frontier/reasoning.py",
+      "capability": "reasoning"
+    },
+    {
+      "file": "src/qbl/frontier/multimodal.py",
+      "capability": "multimodal"
+    },
+    {
+      "file": "src/qbl/frontier/tool_use.py",
+      "capability": "tool_use"
+    },
+    {
+      "file": "src/qbl/frontier/long_context.py",
+      "capability": "long_context"
+    },
+    {
+      "file": "src/qbl/frontier/alignment.py",
+      "capability": "alignment"
+    },
+    {
+      "file": "src/qbl/frontier/efficiency.py",
+      "capability": "efficiency"
+    },
+    {
+      "file": "src/qbl/frontier/code_generation.py",
+      "capability": "code_generation"
+    },
+    {
+      "file": "src/qbl/frontier/self_improvement.py",
+      "capability": "self_improvement"
+    },
+    {
+      "file": "src/qbl/frontier/world_models.py",
+      "capability": "world_models"
+    },
+    {
+      "file": "src/qbl/frontier/scaling.py",
+      "capability": "scaling"
+    }
+  ]
+}
