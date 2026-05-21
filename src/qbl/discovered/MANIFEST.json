@@ -1,0 +1,233 @@
+{
+  "engine": "QBL Knowledge Absorption v2.0",
+  "timestamp": "2026-05-21T16:50:15.919372",
+  "total_sources_processed": 20,
+  "total_modules_generated": 20,
+  "domains": [
+    "quantum",
+    "ai",
+    "military",
+    "crypto",
+    "neuromorphic",
+    "agentic"
+  ],
+  "modules": [
+    {
+      "file": "src/qbl/discovered/quantum/quantum_echoes.py",
+      "domain": "quantum",
+      "algos": [
+        "quantum echoes",
+        "latest quantum computing"
+      ],
+      "techs": [
+        "adiabatic",
+        "quantum advantage"
+      ],
+      "source": "latest quantum computing algorithms 2026 qudit protocols new techniques"
+    },
+    {
+      "file": "src/qbl/discovered/quantum/comprehensive.py",
+      "domain": "quantum",
+      "algos": [
+        "comprehensive"
+      ],
+      "techs": [
+        "quantum advantage",
+        "superconducting",
+        "surface code"
+      ],
+      "source": "quantum error correction 2026 surface code breakthroughs"
+    },
+    {
+      "file": "src/qbl/discovered/quantum/reachability_of_variational_qu.py",
+      "domain": "quantum",
+      "algos": [
+        "reachability of variational quantum",
+        "classical machine learning",
+        "bridge between classical"
+      ],
+      "techs": [
+        "quantum approximate optimization",
+        "qaoa",
+        "variational quantum eigensolver",
+        "vqe"
+      ],
+      "source": "quantum machine learning algorithms 2026 variational circuits"
+    },
+    {
+      "file": "src/qbl/discovered/quantum/trapped_ion.py",
+      "domain": "quantum",
+      "algos": [],
+      "techs": [
+        "trapped ion",
+        "superconducting"
+      ],
+      "source": "YouTube: Examining quantum states in high-dimensional systems - Alexandria Moore (https://www.youtub"
+    },
+    {
+      "file": "src/qbl/discovered/quantum/surface_code.py",
+      "domain": "quantum",
+      "algos": [],
+      "techs": [
+        "surface code"
+      ],
+      "source": "YouTube: 11 - Quantum Error Correction:  Surface Codes (https://www.youtube.com/watch?v=IdZkxX-Qank)"
+    },
+    {
+      "file": "src/qbl/discovered/quantum/surface_code.py",
+      "domain": "quantum",
+      "algos": [],
+      "techs": [
+        "surface code"
+      ],
+      "source": "YouTube: Spring School on Quantum Error Correction Day 3, Surface Code (theory perspective) : Austin"
+    },
+    {
+      "file": "src/qbl/discovered/ai/ppo.py",
+      "domain": "ai",
+      "algos": [],
+      "techs": [
+        "ppo",
+        "multi-agent"
+      ],
+      "source": "AI agent architecture 2026 autonomous tool-use multi-agent systems"
+    },
+    {
+      "file": "src/qbl/discovered/ai/state_space_model.py",
+      "domain": "ai",
+      "algos": [],
+      "techs": [
+        "state space model",
+        "shor",
+        "mamba"
+      ],
+      "source": "state space models mamba architecture 2026 advances"
+    },
+    {
+      "file": "src/qbl/discovered/ai/mixture_of_experts.py",
+      "domain": "ai",
+      "algos": [],
+      "techs": [
+        "mixture of experts",
+        "ppo"
+      ],
+      "source": "mixture of experts scaling laws 2026"
+    },
+    {
+      "file": "src/qbl/discovered/military/ppo.py",
+      "domain": "military",
+      "algos": [],
+      "techs": [
+        "ppo",
+        "photonic quantum",
+        "superconducting",
+        "neutral atom"
+      ],
+      "source": "DARPA quantum computing program 2026 public research announcements"
+    },
+    {
+      "file": "src/qbl/discovered/military/quantum_sensing.py",
+      "domain": "military",
+      "algos": [],
+      "techs": [
+        "quantum sensing",
+        "quantum radar"
+      ],
+      "source": "quantum radar quantum sensing military applications public research 2026"
+    },
+    {
+      "file": "src/qbl/discovered/military/ppo.py",
+      "domain": "military",
+      "algos": [],
+      "techs": [
+        "ppo",
+        "ant colony",
+        "multi-agent",
+        "policy gradient",
+        "reinforcement learning"
+      ],
+      "source": "autonomous swarm drones coordination algorithms public research"
+    },
+    {
+      "file": "src/qbl/discovered/military/ppo.py",
+      "domain": "military",
+      "algos": [],
+      "techs": [
+        "ppo"
+      ],
+      "source": "YouTube: Quantum: Separating the Real from the Hype (https://www.youtube.com/watch?v=5qWTvBWuS3k)"
+    },
+    {
+      "file": "src/qbl/discovered/crypto/falcon.py",
+      "domain": "crypto",
+      "algos": [
+        "falcon"
+      ],
+      "techs": [],
+      "source": "post-quantum cryptography NIST standards 2026 lattice-based"
+    },
+    {
+      "file": "src/qbl/discovered/crypto/ppo.py",
+      "domain": "crypto",
+      "algos": [],
+      "techs": [
+        "ppo",
+        "quantum sensing",
+        "quantum network",
+        "quantum key distribution"
+      ],
+      "source": "quantum key distribution satellite 2026 advances"
+    },
+    {
+      "file": "src/qbl/discovered/neuromorphic/spiking_neural.py",
+      "domain": "neuromorphic",
+      "algos": [],
+      "techs": [
+        "spiking neural",
+        "ppo",
+        "reinforcement learning",
+        "photonic neural",
+        "neuromorphic"
+      ],
+      "source": "neuromorphic computing photonic neural networks 2026"
+    },
+    {
+      "file": "src/qbl/discovered/neuromorphic/spiking_neural.py",
+      "domain": "neuromorphic",
+      "algos": [],
+      "techs": [
+        "spiking neural",
+        "neuromorphic"
+      ],
+      "source": "YouTube: What Are Spiking Neural Networks In Neuromorphic Computing? - Emerging Tech Insider (https:"
+    },
+    {
+      "file": "src/qbl/discovered/neuromorphic/memristor.py",
+      "domain": "neuromorphic",
+      "algos": [],
+      "techs": [
+        "memristor",
+        "neuromorphic"
+      ],
+      "source": "YouTube: Brain-Like (Neuromorphic) Computing - Computerphile (https://www.youtube.com/watch?v=Qow8pI"
+    },
+    {
+      "file": "src/qbl/discovered/agentic/multi_agent.py",
+      "domain": "agentic",
+      "algos": [],
+      "techs": [
+        "multi-agent"
+      ],
+      "source": "YouTube: Multi-agent swarms with LangGraph (https://www.youtube.com/watch?v=JeyDrn1dSUQ)"
+    },
+    {
+      "file": "src/qbl/discovered/agentic/multi_agent.py",
+      "domain": "agentic",
+      "algos": [],
+      "techs": [
+        "multi-agent"
+      ],
+      "source": "YouTube: 10 Multi-Agent Coordination Patterns | From Solo Agents to AI Teams (https://www.youtube.co"
+    }
+  ]
+}
